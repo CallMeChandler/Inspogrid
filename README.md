@@ -1,16 +1,74 @@
 
-# React + Vite
+# INSPOGRID
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌌 InspoGrid
 
-Currently, two official plugins are available:
+> A beautiful, mood-based inspiration board built with React, Tailwind CSS, and Framer Motion.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+InspoGrid helps you collect, filter, and organize motivational **quotes** and **images** based on your current **mood**. Whether you're feeling nostalgic, focused, anxious, or chill — InspoGrid curates the vibe just for you.
 
-## Expanding the ESLint configuration
+![InspoGrid Screenshot](./public/preview.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
 
-# Inspogrid
-7e46df418c3bb8029c7f1ca7226fa42ce67063b8
+## ✨ Features
+
+- 🎨 Mood-based UI filtering
+- 🧠 Quote + Image display with mood tags
+- ➕ Add your own quotes, images, and moods
+- 💖 Favorite content with persistent localStorage
+- 🗑️ Delete quotes/images you added
+- ⬇️ Download any quote as a PNG (with styles)
+- 📱 Responsive and mobile-friendly
+- 🌈 Aurora Dream gradient theme
+- ⚡ Powered by React + Tailwind CSS + Framer Motion
+
+---
+
+## 🧪 Tech Stack
+
+- **React** (Vite-based setup)
+- **Tailwind CSS** for utility-first styling
+- **Framer Motion** for subtle animations
+- **html2canvas** for quote downloads
+- **localStorage** for saving user data
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/CallMeChandler/inspogrid.git
+cd inspogrid
+npm install
+npm run dev
+
+## 📁 Folder Structure
+
+inspogrid/
+├── public/           # Static files (logo, favicon, images)
+├── src/
+│   ├── components/   # All React components
+│   ├── index.css     # TailwindCSS base config
+│   └── App.jsx       # Main App
+├── vite.config.js    # Vite config
+└── README.md
+
+## 🧠 Future Ideas
+
+-🎼 Add lo-fi music toggle per mood
+-🎚️ Custom gradient theme switcher (Sunset, Moonlight)
+-📌 Save/share quote links with mood
+-🧩 Grid tag filtering
+-🧙‍♂️ AI-suggested quotes (experimental)
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+## 📣 Connect with Me
+
+Built with ❤️ by CallMeChandler
+Feel free to contribute, fork, or star the project!
