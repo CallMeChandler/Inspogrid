@@ -4,6 +4,8 @@
 
 **InspoGrid** helps you collect, filter, and organize motivational **quotes** and **images** based on your current **mood**. Whether you're feeling nostalgic, focused, anxious, or chill — InspoGrid curates the vibe just for you.
 
+https://inspo-grid.netlify.app/
+
 ![InspoGrid Screenshots](./public/preview.jpg)
 ![Preview](./public/preview2.jpg)
 ![Preview](./public/preview3.jpg)
